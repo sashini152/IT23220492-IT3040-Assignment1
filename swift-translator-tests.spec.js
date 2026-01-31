@@ -89,7 +89,7 @@ const TEST_DATA = {
       name: 'Convert interrogative',
       input: 'oyaata kohomadha?',
       expected: 'ඔයාට කොහොමද?',
-      category: 'Daily language usage',
+      category: 'Greeting / request / response',
       grammar: 'Interrogative (question)',
       length: 'S'
     },
@@ -98,7 +98,7 @@ const TEST_DATA = {
       name: 'Convert medium length mixed language input',
       input: 'machan mata adha meeting ekee Zoom link eka email ekak vidhihata evanna puLuvandha? Please send it before 3pm. Mama office yanna kalin check karanna oonea.',
       expected: 'මචන් මට අද meeting එකේ Zoom link එක email එකක් විදිහට එවන්න පුළුවන්ද? Please send it before 3pm. මම office යන්න කලින් check කරන්න ඕනේ.',
-      category: 'Daily language usage',
+      category: 'Mixed Singlish + English',
       grammar: 'Compound sentence',
       length: 'M'
     },
@@ -107,7 +107,7 @@ const TEST_DATA = {
       name: 'Convert long paragraph input',
       input: 'dhitvaa suLi kuNaatuva samaGa aethi vuu gQQvathura saha naayayaeem heethuven maarga sQQvarDhana aDhikaariya sathu maarga kotas 430k vinaashayata pathva aethi athara, ehi samastha dhiga pramaaNaya kiloomiitar 300k pamaNa vana bava pravaahana,mahaamaarga saha naagarika sQQvarDhana amaathYA bimal rathnaayaka saDHahan kaLeeya.',
       expected: 'දිට්වා සුළි කුණාටුව සමඟ ඇති වූ ගංවතුර සහ නායයෑම් හේතුවෙන් මාර්ග සංවර්ධන අධිකාරිය සතු මාර්ග කොටස් 430ක් විනාශයට පත්ව ඇති අතර, එහි සමස්ත දිග ප්‍රමාණය කිලෝමීටර් 300ක් පමණ වන බව ප්‍රවාහන,මහාමාර්ග සහ නාගරික සංවර්ධන අමාත්‍ය බිමල් රත්නායක සඳහන් කළේය.',
-      category: 'Daily language usage',
+      category: ' Formatting (spaces / line breaks / paragraph)',
       grammar: 'Compound sentence',
       length: 'L'
     },
@@ -116,7 +116,7 @@ const TEST_DATA = {
       name: ' Convert imperative',
       input: 'issarahata yanna.',
       expected: 'ඉස්සරහට යන්න.',
-      category: 'Greeting / request / response',
+      category: 'Daily language usage',
       grammar: 'Imperative (command)',
       length: 'S'
     },
@@ -126,7 +126,7 @@ const TEST_DATA = {
       name: 'Convert positive sentence',
       input: 'mama ehema karanavaa.',
       expected: 'මම එහෙම කරනවා.',
-      category: 'Greeting / request / response',
+      category: 'Daily language usage',
       grammar: 'Simple sentence',
       length: 'S'
     },
@@ -135,7 +135,7 @@ const TEST_DATA = {
       name: 'Convert negative sentence',
       input: 'mama ehema karannee naehae.',
       expected: 'මම එහෙම කරන්නේ නැහැ.',
-      category: 'Greeting / request / response',
+      category: 'Daily language usage',
       grammar: 'Simple sentence',
       length: 'S'
     },
@@ -145,7 +145,7 @@ const TEST_DATA = {
       name: 'Convert greeting',
       input: 'aayuboovan!',
       expected: 'ආයුබෝවන්!',
-      category: 'Daily language usage',
+      category: ' Greeting / request / response',
       grammar: 'Past tense',
       length: 'S'
     },
@@ -154,7 +154,7 @@ const TEST_DATA = {
       name: 'Convert greeting',
       input: 'suba udhaeesanak!',
       expected: 'සුබ උදෑසනක්!',
-      category: 'Daily language usage',
+      category: ' Greeting / request / response',
       grammar: 'Future tense',
       length: 'S'
     },
@@ -164,7 +164,7 @@ const TEST_DATA = {
       name: 'Convert polite request',
       input: 'mata udhavvak karanna puLuvandha?',
       expected: 'මට උදව්වක් කරන්න පුළුවන්ද?',
-      category: 'Daily language usage',
+      category: ' Greeting / request / response',
       grammar: 'Negation (negative form)',
       length: 'S'
     },
@@ -173,7 +173,7 @@ const TEST_DATA = {
       name: 'Convert polite phrasing',
       input: 'karuNaakaralaa mata podi udhavvak karanna puLuvandha?',
       expected: 'කරුණාකරලා මට පොඩි උදව්වක් කරන්න පුළුවන්ද?',
-      category: 'Daily language usage',
+      category: ' Greeting / request / response',
       grammar: 'Negation (negative form)',
       length: 'M'
     },
@@ -183,7 +183,7 @@ const TEST_DATA = {
       name: 'Convert daily expression',
       input: 'eeyi, ooka dhiyan.',
       expected: 'ඒයි, ඕක දියන්.',
-      category: 'Daily language usage',
+      category: ' Slang / informal language',
       grammar: 'Plural form',
       length: 'S'
     },
@@ -193,7 +193,7 @@ const TEST_DATA = {
       name: 'Common phrase pattern',
       input: 'mata nidhimathayi.',
       expected: 'මට නිදිමතයි.',
-      category: 'Word combination / phrase pattern',
+      category: ' Daily language usage',
       grammar: 'Simple sentence',
       length: 'S'
     },
@@ -203,7 +203,7 @@ const TEST_DATA = {
       name: 'Convert multi-word expression',
       input: 'mata oona.',
       expected: 'මට ඕන.',
-      category: 'Mixed Singlish + English',
+      category: 'Word combination / phrase pattern',
       grammar: 'Simple sentence',
       length: 'S'
     },
@@ -212,7 +212,7 @@ const TEST_DATA = {
       name: 'Convert past tense',
       input: 'mama iiyee gedhara giyaa.',
       expected: 'මම ඊයේ ගෙදර ගියා.',
-      category: 'Names / places / common English words',
+      category: 'Daily language usage',
       grammar: 'Past tense',
       length: 'S'
     },
@@ -222,7 +222,7 @@ const TEST_DATA = {
       name: 'Convert present tense',
       input: 'mama dhaen vaeda karanavaa.',
       expected: 'මම දැන් වැඩ කරනවා.',
-      category: 'Punctuation / numbers',
+      category: 'Daily language usage',
       grammar: 'Simple sentence',
       length: 'S'
     },
@@ -232,7 +232,7 @@ const TEST_DATA = {
       name: 'Convert future tense',
       input: 'mama heta enavaa.',
       expected: 'මම හෙට එනවා.',
-      category: 'Punctuation / numbers',
+      category: 'Daily language usage',
       grammar: 'Simple sentence',
       length: 'S'
     },
@@ -272,7 +272,7 @@ const TEST_DATA = {
       name: 'Convert very polite request',
       input: 'karuNaakara eeka dhenavadha?',
       expected: 'කරුණාකර ඒක දෙනවද?',
-      category: 'Daily language usage',
+      category: 'Greeting / request / response',
       grammar: 'Compound sentence',
       length: 'M'
     },
@@ -281,7 +281,7 @@ const TEST_DATA = {
       name: 'Convert with English technical terms',
       input: 'Zoom meeting ekak thiyennee.',
       expected: 'Zoom meeting එකක් තියෙන්නේ.',
-      category: 'Daily language usage',
+      category: ' Mixed Singlish + English',
       grammar: 'Compound sentence',
       length: 'M'
     },
@@ -290,7 +290,7 @@ const TEST_DATA = {
       name: 'Convert with WhatsApp and Email',
       input: 'WhatsApp msg ekak evanna puLuvandha?',
       expected: 'WhatsApp ම්ස්ග් එකක් එවන්න පුළුවන්ද?',
-      category: 'Daily language usage',
+      category: ' Mixed Singlish + English',
       grammar: 'Compound sentence',
       length: 'M'
     },
@@ -299,7 +299,7 @@ const TEST_DATA = {
       name: 'Convert with place name ',
       input: 'siiyaa Colombo yanna hadhannee.',
       expected: 'සීයා Colombo යන්න හදන්නේ.',
-      category: 'Daily language usage',
+      category: 'Names / places / common English words',
       grammar: 'Compound sentence',
       length: 'M'
     },
@@ -308,7 +308,7 @@ const TEST_DATA = {
       name: 'Convert with exclamation mark',
       input: 'hari hari!',
       expected: 'හරි හරි!',
-      category: 'Daily language usage',
+      category: ' Punctuation / numbers',
       grammar: 'Compound sentence',
       length: 'M'
     },
@@ -327,7 +327,7 @@ const TEST_DATA = {
       name: 'Convert with currency',
       input: 'Rs. 5343 oonee.',
       expected: 'Rs. 5343 ඕනේ.',
-      category: 'Daily language usage',
+      category: ' Punctuation / numbers',
       grammar: 'Compound sentence',
       length: 'M'
     }
@@ -340,7 +340,7 @@ const TEST_DATA = {
       name: ' Fail with very short incomplete input',
       input: 'mamavedataayanavaa',
       expected: 'මම වැඩට යනවා',
-      category: 'Typographical error handling',
+      category: 'Daily language usage',
       grammar: 'Simple sentence',
       length: 'S'
     },
@@ -349,7 +349,7 @@ const TEST_DATA = {
       name: ' Fail to convert multiple joined words',
       input: 'matapaankannaoonee',
       expected: 'මට පාන් කන්න ඕනේ',
-      category: 'Typographical error handling',
+      category: 'Daily language usage',
       grammar: 'Future tense',
       length: 'S'
     },
@@ -358,7 +358,7 @@ const TEST_DATA = {
       name: 'Fail to convert extreme slang',
       input: 'ela machan! supiri!!',
       expected: 'එල මචන්! සුපිරි!',
-      category: 'Formatting (spaces / line breaks / paragraph)',
+      category: 'Slang / informal language',
       grammar: 'Simple sentence',
       length: 'S'
     },
@@ -367,7 +367,7 @@ const TEST_DATA = {
       name: 'Fail with non-standard character combinations',
       input: 'mama vedataa yanavaa xyz123 abc',
       expected: 'මම වැඩට යනවා',
-      category: 'Formatting (spaces / line breaks / paragraph)',
+      category: 'Slang / informal language',
       grammar: 'Simple sentence',
       length: 'S'
     },
@@ -376,7 +376,7 @@ const TEST_DATA = {
       name: 'Fail to convert very informal expression',
       input: 'adoo vaedak baaragaththaanam eeka hariyata karapanko bQQ!.',
       expected: 'අඩෝ වැඩක් බාරගත්තානම් ඒක හරියට කරපන්කො බං.',
-      category: 'Slang / informal language',
+      category: ' Invalid characters',
       grammar: 'Simple sentence',
       length: 'S'
     },
@@ -403,7 +403,7 @@ const TEST_DATA = {
       name: 'Fail with unusual special characters',
       input: 'mama @#$% gedhara yanavaa.',
       expected: 'මම ගෙදර යනවා.',
-      category: 'Names / places / common English words',
+      category: ' Special characters',
       grammar: 'Simple sentence',
       length: 'S'
     },
@@ -412,8 +412,8 @@ const TEST_DATA = {
       name: 'Fail with complex number formats',
       input: 'mata Rs. 1,234,567.89 oonee.',
       expected: 'මට Rs.1,234,567.89 ඕනේ.',
-      category: 'Typographical error handling',
-      grammar: 'Interrogative (question)',
+      category: 'Complex numeric formats',
+      grammar: ' Punctuation / numbers',
       length: 'S'
     },
     {
@@ -421,8 +421,8 @@ const TEST_DATA = {
       name: 'Fail with excessive punctuation',
       input: 'hari hari!!!???',
       expected: 'හරි හරි',
-      category: 'Slang / informal language',
-      grammar: 'Imperative (command)',
+      category: 'Punctuation / numbers',
+      grammar: ' Punctuation / numbers',
       length: 'S'
     }
   ],
@@ -434,7 +434,7 @@ const TEST_DATA = {
     input: 'oyaata kohomadha',
     partialInput: 'oyaata ko',
     expectedFull: 'ඔයාට කොහොමද',
-    category: 'Usability flow',
+    category: ' Empty / cleared input handling',
     grammar: 'Present tense',
     length: 'S'
   },
@@ -445,7 +445,7 @@ const TEST_DATA = {
     input: 'karuNaakara eeka dhenavadha',
     partialInput: 'karuNaakara eeka',
     expectedFull: 'කරුණාකර ඒක දෙනවද',
-    category: 'Usability flow',
+    category: 'Greeting / request / response',
     grammar: 'Present tense',
     length: 'S'
   },
@@ -456,7 +456,7 @@ const TEST_DATA = {
     input: 'machan mata adha meeting ekee Zoom link eka email ekak vidhihata evanna puLuvandha??',
     partialInput: 'machan mata adha meeting',
     expectedFull: 'මචන් මට අද meeting එකේ Zoom link එක email එකක් විදිහට එවන්න පුළුවන්ද?',
-    category: 'Usability flow',
+    category: 'Mixed Singlish + English',
     grammar: 'Present tense',
     length: 'M'
   },
@@ -467,7 +467,7 @@ const TEST_DATA = {
     input: 'mama adahas ^ ~ dhenna yanavaa',
     partialInput: 'mama adahas ^',
     expectedFull: 'මම අදහස්  දෙන්න යනවා',
-    category: 'Usability flow',
+    category: ' Mixed input',
     grammar: 'Present tense',
     length: 'S'
   },
