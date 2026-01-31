@@ -81,7 +81,7 @@ const TEST_DATA = {
       input: 'vaessa unath api yanna epaeyi.',
       expected: 'වැස්ස උනත් අපි යන්න එපැයි.',
       category: 'Daily language usage',
-      grammar: 'Interrogative (question)',
+      grammar: 'Compound sentence',
       length: 'S'
     },
     {
@@ -146,7 +146,7 @@ const TEST_DATA = {
       input: 'aayuboovan!',
       expected: 'ආයුබෝවන්!',
       category: ' Greeting / request / response',
-      grammar: 'Past tense',
+      grammar: 'Simple sentence',
       length: 'S'
     },
     {
@@ -155,7 +155,7 @@ const TEST_DATA = {
       input: 'suba udhaeesanak!',
       expected: 'සුබ උදෑසනක්!',
       category: ' Greeting / request / response',
-      grammar: 'Future tense',
+      grammar: 'Simple sentence',
       length: 'S'
     },
     
@@ -165,7 +165,7 @@ const TEST_DATA = {
       input: 'mata udhavvak karanna puLuvandha?',
       expected: 'මට උදව්වක් කරන්න පුළුවන්ද?',
       category: ' Greeting / request / response',
-      grammar: 'Negation (negative form)',
+      grammar: 'Question sentence',
       length: 'S'
     },
     {
@@ -174,7 +174,7 @@ const TEST_DATA = {
       input: 'karuNaakaralaa mata podi udhavvak karanna puLuvandha?',
       expected: 'කරුණාකරලා මට පොඩි උදව්වක් කරන්න පුළුවන්ද?',
       category: ' Greeting / request / response',
-      grammar: 'Negation (negative form)',
+      grammar: 'Question sentence',
       length: 'M'
     },
     
@@ -184,7 +184,7 @@ const TEST_DATA = {
       input: 'eeyi, ooka dhiyan.',
       expected: 'ඒයි, ඕක දියන්.',
       category: ' Slang / informal language',
-      grammar: 'Plural form',
+      grammar: 'Simple sentence',
       length: 'S'
     },
     
@@ -263,7 +263,7 @@ const TEST_DATA = {
       input: 'api yamu.',
       expected: 'අපි යමු.',
       category: 'Daily language usage',
-      grammar: 'Compound sentence',
+      grammar: 'simple sentence',
       length: 'M'
     },
 
@@ -273,7 +273,7 @@ const TEST_DATA = {
       input: 'karuNaakara eeka dhenavadha?',
       expected: 'කරුණාකර ඒක දෙනවද?',
       category: 'Greeting / request / response',
-      grammar: 'Compound sentence',
+      grammar: 'question sentence',
       length: 'M'
     },
      {
@@ -282,7 +282,7 @@ const TEST_DATA = {
       input: 'Zoom meeting ekak thiyennee.',
       expected: 'Zoom meeting එකක් තියෙන්නේ.',
       category: ' Mixed Singlish + English',
-      grammar: 'Compound sentence',
+      grammar: 'simple sentence',
       length: 'M'
     },
      {
@@ -291,7 +291,7 @@ const TEST_DATA = {
       input: 'WhatsApp msg ekak evanna puLuvandha?',
       expected: 'WhatsApp ම්ස්ග් එකක් එවන්න පුළුවන්ද?',
       category: ' Mixed Singlish + English',
-      grammar: 'Compound sentence',
+      grammar: 'question sentence',
       length: 'M'
     },
      {
@@ -300,7 +300,7 @@ const TEST_DATA = {
       input: 'siiyaa Colombo yanna hadhannee.',
       expected: 'සීයා Colombo යන්න හදන්නේ.',
       category: 'Names / places / common English words',
-      grammar: 'Compound sentence',
+      grammar: ' question sentence',
       length: 'M'
     },
      {
@@ -309,7 +309,7 @@ const TEST_DATA = {
       input: 'hari hari!',
       expected: 'හරි හරි!',
       category: ' Punctuation / numbers',
-      grammar: 'Compound sentence',
+      grammar: 'simple sentence',
       length: 'M'
     },
 
@@ -319,7 +319,7 @@ const TEST_DATA = {
       input: 'oya enavadha?',
       expected: 'ඔය එනවද?',
       category: 'Daily language usage',
-      grammar: 'Compound sentence',
+      grammar: 'question sentence',
       length: 'M'
     },
      {
@@ -328,7 +328,7 @@ const TEST_DATA = {
       input: 'Rs. 5343 oonee.',
       expected: 'Rs. 5343 ඕනේ.',
       category: ' Punctuation / numbers',
-      grammar: 'Compound sentence',
+      grammar: 'simple sentence',
       length: 'M'
     }
     
@@ -350,7 +350,7 @@ const TEST_DATA = {
       input: 'matapaankannaoonee',
       expected: 'මට පාන් කන්න ඕනේ',
       category: 'Daily language usage',
-      grammar: 'Future tense',
+      grammar: 'simple sentence',
       length: 'S'
     },
     {
@@ -386,7 +386,7 @@ const TEST_DATA = {
       input: 'Thx machan! ASAP email ekak evanna.',
       expected: 'Tnx මචන්! ASAP email එකක් එවන්න.',
       category: 'Slang / informal language',
-      grammar: 'Interrogative (question)',
+      grammar: 'simple sentence',
       length: 'S'
     },
     {
@@ -395,7 +395,7 @@ const TEST_DATA = {
       input: 'machan mata adha meeting ekee Zoom link eka email ekak vidhihata evanna puLuvandha? Please send it before 3pm. Mama office yanna kalin check karanna oonea. Email ekak evanna amaarunam WhatsApp msg ekak dhaapan. Thx! machan mata adha meeting ekee Zoom link eka email ekak vidhihata evanna puLuvandha? Please send it before 3pm. Mama office yanna kalin check karanna oonea. Email ekak evanna amaarunam WhatsApp msg ekak dhaapan. Thx! machan mata adha meeting ekee Zoom link eka email ekak vidhihata evanna puLuvandha?',
       expected: 'මචන් මට අද meeting එකේ Zoom link එක email එකක් විදිහට එවන්න පුළුවන්ද? Please send it before 3pm. මම office යන්න කලින් check කරන්න ඕනේ. Email එකක් එවන්න අමාරුනම් WhatsApp ම්ස්ග් එකක් දාපන්. Thx! මචන් මට අද meeting එකේ Zoom link එක email එකක් විදිහට එවන්න පුළුවන්ද? Please send it before 3pm. මම office යන්න කලින් check කරන්න ඕනේ. Email එකක් එවන්න අමාරුනම් WhatsApp ම්ස්ග් එකක් දාපන්. ථx! මචන් මට අද meeting එකේ Zoom link එක email එකක් විදිහට එවන්න පුළුවන්ද?',
       category: 'Mixed Singlish + English',
-      grammar: 'Past tense',
+      grammar: 'compound sentence',
       length: 'S'
     },
     {
@@ -413,7 +413,7 @@ const TEST_DATA = {
       input: 'mata Rs. 1,234,567.89 oonee.',
       expected: 'මට Rs.1,234,567.89 ඕනේ.',
       category: 'Complex numeric formats',
-      grammar: ' Punctuation / numbers',
+      grammar: ' simple sentence',
       length: 'S'
     },
     {
@@ -422,7 +422,7 @@ const TEST_DATA = {
       input: 'hari hari!!!???',
       expected: 'හරි හරි',
       category: 'Punctuation / numbers',
-      grammar: ' Punctuation / numbers',
+      grammar: 'simple sentence',
       length: 'S'
     }
   ],
@@ -435,7 +435,7 @@ const TEST_DATA = {
     partialInput: 'oyaata ko',
     expectedFull: 'ඔයාට කොහොමද',
     category: ' Empty / cleared input handling',
-    grammar: 'Present tense',
+    grammar: 'question sentence',
     length: 'S'
   },
 
@@ -446,7 +446,7 @@ const TEST_DATA = {
     partialInput: 'karuNaakara eeka',
     expectedFull: 'කරුණාකර ඒක දෙනවද',
     category: 'Greeting / request / response',
-    grammar: 'Present tense',
+    grammar: 'simple sentence',
     length: 'S'
   },
 
@@ -457,7 +457,7 @@ const TEST_DATA = {
     partialInput: 'machan mata adha meeting',
     expectedFull: 'මචන් මට අද meeting එකේ Zoom link එක email එකක් විදිහට එවන්න පුළුවන්ද?',
     category: 'Mixed Singlish + English',
-    grammar: 'Present tense',
+    grammar: 'question sentence',
     length: 'M'
   },
 
